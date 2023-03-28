@@ -79,13 +79,17 @@ This is a simple API like a <a href="https://jsonplaceholder.typicode.com/">JSON
 
 For correct working it needs to be worked mongodb on url: mongodb://127.0.0.1:27017/sandbox
 Mongodb can be installed locally on your computer:
-1: https://www.mongodb.com/docs/manual/installation/ /n
-2: https://www.mongodb.com/try/download/compass /n
-/n
+```
+  1: https://www.mongodb.com/docs/manual/installation/ 
+  2: https://www.mongodb.com/try/download/compass
+```
+
 or it can be installed inside docker container:
-1: https://www.docker.com/products/docker-desktop/ /n
-2: https://hub.docker.com/_/mongo /n
-3: https://hub.docker.com/_/mongo-express /n
+```
+  1: https://www.docker.com/products/docker-desktop/
+  2: https://hub.docker.com/_/mongo 
+  3: https://hub.docker.com/_/mongo-express
+```
 
 <p align="center">
   <a href="http://nestjs.com/" target="blank"><img src="https://nestjs.com/img/logo-small.svg" width="200" alt="Nest Logo" /></a>
