@@ -1,3 +1,92 @@
+# Json-placeholder-nest-parody
+
+This is a simple API like a <a href="https://jsonplaceholder.typicode.com/">JSON Placeholder</a> but it is based on the nest js framework
+
+## Available routes
+
+### For user
+
+```
+  GET:    /users
+  GET:    /users/:id
+  GET:    /users/:id/posts
+  GET:    /users/:id/todos
+  GET:    /users/:id/albums
+  POST:   /users
+  PUT:    /users/:id
+  PATCH:  /users/:id
+  DELETE: /users/:id
+```
+
+### For post
+
+```
+  GET:    /posts?userId=userId
+  GET:    /posts/:id
+  GET:    /posts/:id/comments
+  POST:   /posts
+  PUT:    /posts/:id
+  PATCH:  /posts/:id
+  DELETE: /posts/:id
+```
+
+### For comment
+
+```
+  GET:    /comments?postId=postId
+  GET:    /comments/:id
+  POST:   /comments
+  PUT:    /comments/:id
+  PATCH:  /comments/:id
+  DELETE: /comments/:id
+```
+
+### For todo
+
+```
+  GET:    /todos?userId=userId
+  GET:    /todos/:id
+  POST:   /todos
+  PUT:    /todos/:id
+  PATCH:  /todos/:id
+  DELETE: /todos/:id
+```
+
+### For album
+
+```
+  GET:    /albums?userId=userId
+  GET:    /albums/:id
+  GET:    /albums/:id/photos
+  POST:   /albums
+  PUT:    /albums/:id
+  PATCH:  /albums/:id
+  DELETE: /albums/:id
+```
+
+### For photo
+
+```
+  GET:    /photos?albumId=albumId
+  GET:    /photos/:id
+  POST:   /albums
+  PUT:    /albums/:id
+  PATCH:  /albums/:id
+  DELETE: /albums/:id
+```
+
+## Installation
+
+For correct working it needs to be worked mongodb on url: mongodb://127.0.0.1:27017/sandbox
+Mongodb can be installed locally on your computer:
+1: https://www.mongodb.com/docs/manual/installation/
+2: https://www.mongodb.com/try/download/compass
+
+or it can be installed inside docker container:
+1: https://www.docker.com/products/docker-desktop/
+2: https://hub.docker.com/_/mongo
+3: https://hub.docker.com/_/mongo-express
+
 <p align="center">
   <a href="http://nestjs.com/" target="blank"><img src="https://nestjs.com/img/logo-small.svg" width="200" alt="Nest Logo" /></a>
 </p>
@@ -15,9 +104,9 @@
 <a href="https://discord.gg/G7Qnnhy" target="_blank"><img src="https://img.shields.io/badge/discord-online-brightgreen.svg" alt="Discord"/></a>
 <a href="https://opencollective.com/nest#backer" target="_blank"><img src="https://opencollective.com/nest/backers/badge.svg" alt="Backers on Open Collective" /></a>
 <a href="https://opencollective.com/nest#sponsor" target="_blank"><img src="https://opencollective.com/nest/sponsors/badge.svg" alt="Sponsors on Open Collective" /></a>
-  <a href="https://paypal.me/kamilmysliwiec" target="_blank"><img src="https://img.shields.io/badge/Donate-PayPal-ff3f59.svg"/></a>
-    <a href="https://opencollective.com/nest#sponsor"  target="_blank"><img src="https://img.shields.io/badge/Support%20us-Open%20Collective-41B883.svg" alt="Support us"></a>
-  <a href="https://twitter.com/nestframework" target="_blank"><img src="https://img.shields.io/twitter/follow/nestframework.svg?style=social&label=Follow"></a>
+<a href="https://paypal.me/kamilmysliwiec" target="_blank"><img src="https://img.shields.io/badge/Donate-PayPal-ff3f59.svg"/></a>
+<a href="https://opencollective.com/nest#sponsor"  target="_blank"><img src="https://img.shields.io/badge/Support%20us-Open%20Collective-41B883.svg" alt="Support us"></a>
+<a href="https://twitter.com/nestframework" target="_blank"><img src="https://img.shields.io/twitter/follow/nestframework.svg?style=social&label=Follow"></a>
 </p>
   <!--[![Backers on Open Collective](https://opencollective.com/nest/backers/badge.svg)](https://opencollective.com/nest#backer)
   [![Sponsors on Open Collective](https://opencollective.com/nest/sponsors/badge.svg)](https://opencollective.com/nest#sponsor)-->
