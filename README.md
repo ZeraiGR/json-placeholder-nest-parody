@@ -69,10 +69,10 @@ This is a simple API like a <a href="https://jsonplaceholder.typicode.com/">JSON
 ```
   GET:    /photos?albumId=albumId
   GET:    /photos/:id
-  POST:   /albums
-  PUT:    /albums/:id
-  PATCH:  /albums/:id
-  DELETE: /albums/:id
+  POST:   /photos
+  PUT:    /photos/:id
+  PATCH:  /photos/:id
+  DELETE: /photos/:id
 ```
 
 ## Installation
