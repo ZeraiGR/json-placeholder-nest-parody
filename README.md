@@ -77,7 +77,7 @@ This is a simple API like a <a href="https://jsonplaceholder.typicode.com/">JSON
 
 ## Installation
 
-For correct working it needs to be worked mongodb on url: mongodb://127.0.0.1:27017/sandbox
+For correct working it needs to be worked mongodb on url: **mongodb://127.0.0.1:27017/sandbox** by default you can change it if you want
 Mongodb can be installed locally on your computer:
 
 - 1: https://www.mongodb.com/docs/manual/installation/ 
